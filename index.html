@@ -1,0 +1,98 @@
+<!--Recriar página inicial do Instagram-->
+<!-- Bloco inicial-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/Responsive.css">
+
+    <!-- bloco owl css ,  atalho: ctrl+/+space para localizar o arquivo-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"> 
+
+    <title>NETFLIX CLONE</title><!-- Nome que irá aparecer na aba-->
+</head>
+<!-- Fim Bloco inicial-->
+
+
+<body>
+    <header>
+         <div class="container">
+             <h2 class="logo">
+                 NETFLIX DA MÁFIA
+             </h2>
+             <NAV><!-- bloco de navegação-->
+                <a href="#">Início</a><!-- ALT+Shift+ seta para baixo - vai clonar a linha-->
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+             </NAV>
+
+         </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">O Poderoso Chefão</h3>
+                <h2 class='sinopse'>Sinopse</h2>
+                <p class="descricao">Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios. </p>
+                <button role="button" class="botao"> <!-- Role serve para mostrar que é realmente um botão sem cel e tablets-->
+                    <i class="fas fa-play"></i> <!-- puxa icones do fontawesome-->
+                    ASSISTIR
+                </button>
+                <button role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    Mais informações
+                </button>
+            </div>
+           
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/chefe02.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/chefe03.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/irlandes.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/bonscomp.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/cassino.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/intoc.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/soprano.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/angelo.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/capone2.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+    <!-- Arquivos js devem sempre ser chamados no final para evitar erros de carregamento, boa prática-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
+
+
+</body>
+</html>
